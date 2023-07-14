@@ -1,0 +1,61 @@
+body {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("../images/OpenClassrooms.jpg");
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+#carousel {
+    width: 1000px;
+    height: 500px;
+    border: solid 10px #FFF;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+#container {
+    width: 1000px;
+    height: 500px;
+}
+.button {
+    position: absolute;
+    width: 70px;
+    cursor: pointer;
+    top: 210px;
+}
+#left {
+    left: 0;
+    opacity: 0.4;
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+}
+#right {
+    right: 0;
+    opacity: 0.4;
+    transform: rotate(180deg);
+    transition: all 0.3s ease;
+}
+#left:hover {
+    opacity: 1;
+    transform: rotate(0deg) scale(1.1);
+    transition: all 0.3s ease;
+}
+#right:hover {
+    opacity: 1;
+    transform: rotate(180deg) scale(1.1);
+    transition: all 0.3s ease;
+}
+.photo {
+    width: 1000px;
+    height: 500px;
+    margin: 0;
+    display: inline-block;
+    background-size: cover;
+}
