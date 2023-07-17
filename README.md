@@ -1,5 +1,5 @@
 # Formation d'un développeur d'application Python chez Openclassrooms
-`Construisez des applications web en utilisant le langage de programmation Python et le framework Django.`
+`Construire des applications web en utilisant le langage de programmation Python et le framework Django.`
 ## Diplôme de niveau 6 (bac +3/4)      `À plein temps : 12 mois`
 ************************************************************************************************************************
 ### Que font les développeur(se)s Python ?
